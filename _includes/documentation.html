@@ -1,0 +1,32 @@
+    <!-- Documentation Section -->
+    <section id="documentation" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Documentation and Help</h2>
+                <p>The Vespucci user manual is currently being updated to the new UI
+                an older PDF version of the manual is availible 
+                <a href="https://github.com/VespucciProject/Vespucci-docs/releases/download/1.0.0/VespucciUserManual.pdf">here</a>.
+                Doxygen C++ API documentation is published to the gh-pages branch of the
+                <a href="https://github.com/VespucciProject/Vepsucci-docs">
+                    VespucciProject/Vespucci-docs</a> repository and can be
+                viewed at <a href="http://vespucciproject.org/Vespucci-docs">
+                    vepsucciproject.org/Vespucci_docs</a></p>
+
+                <p>To report bugs, please use the 
+                <a href="https://github.com/VespucciProject/Vespucci/issues">GitHub Issues Page</a>
+                or contact by email.</p>
+
+                <p>If you would like to contribute to Vespucci, please puruse
+                <a href="https://github.com/VespucciProject/Vespucci/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> or contact us via GitHub or email.</p>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
