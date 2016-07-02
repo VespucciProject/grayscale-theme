@@ -259,6 +259,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    text-align: left;
 }
 
 .download-section {
@@ -266,6 +267,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    text-align: left;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
