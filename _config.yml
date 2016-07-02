@@ -7,7 +7,7 @@ description: "Vespucci is a free, cross-platform software package for spectrosco
 # Color settings (hex-codes with the leading hash-tag)
 color:
   primary-dark: '#258C4B' #Pantone 10303 C
-  links: '#219ab3'
+  links: '#989898'
 
 # Footer settings
 footer: Vespucci Project (Wright State University)
