@@ -4,10 +4,10 @@ email: vespucci@vespucciproject.org
 url: http://vespucciproject.org
 description: "Vespucci is a free, cross-platform software package for spectroscopic data analaysis and imaging."
 
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes with the leading hash-tag)
 color:
-  primary-dark: '258C4B' #Pantone 10303 C
-  links: '219ab3'
+  primary-dark: '#258C4B' #Pantone 10303 C
+  links: '#219ab3'
 
 # Footer settings
 footer: Vespucci Project (Wright State University)
