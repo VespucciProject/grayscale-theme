@@ -381,3 +381,7 @@ body {
 .jumbotron {
     background-color: rgba(21, 37, 21, 0.7777777) !important
 }
+
+.modal-backdrop {
+    background-color: {{ site.color.primary-dark }};
+}
