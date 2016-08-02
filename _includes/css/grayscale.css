@@ -385,3 +385,9 @@ body {
 .modal-backdrop {
     background-color: {{ site.color.primary-dark }};
 }
+.modal-body {
+    background-color: {{ site.color.primary-dark }};
+}
+.modal-header {
+    background-color: {{ site.color.primary-dark }};
+}
