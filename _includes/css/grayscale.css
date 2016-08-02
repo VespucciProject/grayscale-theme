@@ -107,9 +107,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: .3s ease-in-out;
-    -moz-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: background-color, color, .3s ease-in-out;
+    -moz-transition: background-color, color, .3s ease-in-out;
+    transition: background-color, color, .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover,
@@ -125,9 +125,9 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        -webkit-transition: .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: .5s ease-in-out,padding .5s ease-in-out;
-        transition: .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background-color, color, .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background-color, color, .5s ease-in-out,padding .5s ease-in-out;
+        transition: background-color, color, .5s ease-in-out,padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
