@@ -26,7 +26,7 @@
                 </div>
                 <p>Vespucci supports several commonly-used (pre)processing
                 methods for spectroscopic data, including smoothing (median,
-                moving average, Savitzky-Golay, gaussian), rank-reduction of the 
+                moving average, Savitzky-Golay, gaussian), normalization, rank-reduction of the 
                 spectra matrix through singular value decomposition,
                 and baseline correction.</p>
                 <h3>Univariate Analysis</h3> 
@@ -41,19 +41,21 @@
                     <img src="img/multivariate.png" class="img-responsive" style="max-width:700px"/>
                 </div>
                 <p>Vespucci supports principal component analysis, vertex components
-                analysis, k-means clustering and partial least squares for classification,
+                analysis, <i>k</i>-means clustering and partial least squares for classification,
                 calibration and discrimination. Multivariate methods can be 
                 performed on entire spectra or on data derived from other 
-                analyses (k-Means on PCA, PCA on univariate, etc.)</p>
+                analyses (<i>k</i>-Means on PCA, PCA on univariate, etc.)</p>
                 <!-- Upcoming features to add
                 <h3>Peak Detection</h3>
                 <p> Vespucci provides peak detection and database lookup, informing 
                 you about potential assignments. You can customize your peak database
                 through Vespucci or by editing a simple YAML file.</p>
+                -->
                 <h3>Macro System</h3>
                 <p> Vespucci provides a simple-to-use macro system to automate
                 pre-processing and analysis techniques allowing you to perform
                 the same operations on every dataset reproducibly.</p>
+                <!--
                 <h3>Python Integration</h3>
                 <p> Vespucci provides an interface between its data objects and 
                 NumPy, allowing you to use the many data analysis functions 
@@ -61,10 +63,10 @@
                 Python scripts, allowing them to be run from the Vespucci graphical
                 user interface. Through this interface, you can also make use of
                 other languages such as R or MATLAB through Python.</p>
-                <h3>HDF5 Data Format</h3>
-                <p> Vespucci saves datasets in the HDF5, allowing the output of
-                Vespucci methods to be easily readible in software such as MATLAB</p>
                 -->
+                <h3>HDF5 Data Format</h3>
+                <p> Vespucci saves datasets in the industry-standard HDF5 file format, allowing the output of
+                Vespucci methods to be easily readible in software such as MATLAB</p>
             </div>
         </div>
     </section>
