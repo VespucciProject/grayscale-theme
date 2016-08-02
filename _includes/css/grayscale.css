@@ -394,6 +394,7 @@ body {
 }
 
 .tight-text{
+    text-transform: none;
     margin: 0 0 0px;
     font-size: 24px;
     line-height: 1;
